@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Panel Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="settings-container">
+        <select id="theme-selector">
+            <option value="system">Sistem</option>
+            <option value="light">Light Mode</option>
+            <option value="dark">Dark Mode</option>
+        </select>
+    </div>
+    <div class="container">
+        <h1>Key Access</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="license_key">Key License</label>
+                <input type="password" id="license_key" required>
+            </div>
+            <button type="submit">Masuk</button>
+        </form>
+        <p id="message"></p>
+    </div>
+
+    <audio id="background-audio" src="background_music.mp3" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
