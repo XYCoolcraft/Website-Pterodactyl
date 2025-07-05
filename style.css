@@ -1,0 +1,72 @@
+/* Import font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Pengaturan dasar untuk seluruh halaman */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Wadah utama konten */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Judul utama */
+h1 {
+    color: #007BFF;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#lokasi {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Setiap baris jadwal sholat */
+.waktu-sholat {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1em;
+}
+
+/* Menghilangkan garis bawah pada baris terakhir */
+.waktu-sholat:last-child {
+    border-bottom: none;
+}
+
+.waktu-sholat span:first-child {
+    font-weight: 600; /* Menebalkan nama waktu sholat */
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.8em;
+    color: #888;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
